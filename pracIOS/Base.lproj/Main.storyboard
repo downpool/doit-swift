@@ -49,6 +49,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="send"/>
+                                <connections>
+                                    <action selector="btnSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WrU-Xj-aHC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,7 +61,9 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <outlet property="hello" destination="d9F-Xp-qEC" id="Q0R-m7-5Fd"/>
+                        <outlet property="hellow" destination="d9F-Xp-qEC" id="Nwl-vh-Wcb"/>
+                        <outlet property="lblthis" destination="2Tk-pj-BvR" id="dra-yD-dig"/>
+                        <outlet property="textfield" destination="W5n-Ju-zM8" id="RBY-2h-hCr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -8,13 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var hello: UILabel!
+    @IBOutlet var hellow: UILabel!
+    @IBOutlet var lblthis: UILabel!
     
+    @IBOutlet var textfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func btnSend(_ sender: UIButton) {
+        hellow.text = textfield.text!
+    }
 }
-
