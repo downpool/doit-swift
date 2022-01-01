@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		324B1BEC2771F2A1009C8A3E /* pracIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pracIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324B1BEC2771F2A1009C8A3E /* base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324B1BEF2771F2A1009C8A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		324B1BF12771F2A1009C8A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		324B1BF32771F2A1009C8A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		324B1BFB2771F2A3009C8A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324B1BFE2771F2A3009C8A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		324B1C002771F2A3009C8A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		324B1C052771F2A3009C8A3E /* pracIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pracIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324B1C052771F2A3009C8A3E /* baseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324B1C092771F2A3009C8A3E /* pracIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pracIOSTests.swift; sourceTree = "<group>"; };
-		324B1C0F2771F2A3009C8A3E /* pracIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pracIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324B1C0F2771F2A3009C8A3E /* baseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324B1C132771F2A3009C8A3E /* pracIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pracIOSUITests.swift; sourceTree = "<group>"; };
 		324B1C152771F2A3009C8A3E /* pracIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pracIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		324B1BED2771F2A1009C8A3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				324B1BEC2771F2A1009C8A3E /* pracIOS.app */,
-				324B1C052771F2A3009C8A3E /* pracIOSTests.xctest */,
-				324B1C0F2771F2A3009C8A3E /* pracIOSUITests.xctest */,
+				324B1BEC2771F2A1009C8A3E /* base.app */,
+				324B1C052771F2A3009C8A3E /* baseTests.xctest */,
+				324B1C0F2771F2A3009C8A3E /* baseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		324B1BEB2771F2A1009C8A3E /* pracIOS */ = {
+		324B1BEB2771F2A1009C8A3E /* base */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 324B1C192771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOS" */;
+			buildConfigurationList = 324B1C192771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "base" */;
 			buildPhases = (
 				324B1BE82771F2A1009C8A3E /* Sources */,
 				324B1BE92771F2A1009C8A3E /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = pracIOS;
+			name = base;
 			productName = pracIOS;
-			productReference = 324B1BEC2771F2A1009C8A3E /* pracIOS.app */;
+			productReference = 324B1BEC2771F2A1009C8A3E /* base.app */;
 			productType = "com.apple.product-type.application";
 		};
-		324B1C042771F2A3009C8A3E /* pracIOSTests */ = {
+		324B1C042771F2A3009C8A3E /* baseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 324B1C1C2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOSTests" */;
+			buildConfigurationList = 324B1C1C2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "baseTests" */;
 			buildPhases = (
 				324B1C012771F2A3009C8A3E /* Sources */,
 				324B1C022771F2A3009C8A3E /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				324B1C072771F2A3009C8A3E /* PBXTargetDependency */,
 			);
-			name = pracIOSTests;
+			name = baseTests;
 			productName = pracIOSTests;
-			productReference = 324B1C052771F2A3009C8A3E /* pracIOSTests.xctest */;
+			productReference = 324B1C052771F2A3009C8A3E /* baseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		324B1C0E2771F2A3009C8A3E /* pracIOSUITests */ = {
+		324B1C0E2771F2A3009C8A3E /* baseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 324B1C1F2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOSUITests" */;
+			buildConfigurationList = 324B1C1F2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "baseUITests" */;
 			buildPhases = (
 				324B1C0B2771F2A3009C8A3E /* Sources */,
 				324B1C0C2771F2A3009C8A3E /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				324B1C112771F2A3009C8A3E /* PBXTargetDependency */,
 			);
-			name = pracIOSUITests;
+			name = baseUITests;
 			productName = pracIOSUITests;
-			productReference = 324B1C0F2771F2A3009C8A3E /* pracIOSUITests.xctest */;
+			productReference = 324B1C0F2771F2A3009C8A3E /* baseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 324B1BE72771F2A1009C8A3E /* Build configuration list for PBXProject "pracIOS" */;
+			buildConfigurationList = 324B1BE72771F2A1009C8A3E /* Build configuration list for PBXProject "base" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				324B1BEB2771F2A1009C8A3E /* pracIOS */,
-				324B1C042771F2A3009C8A3E /* pracIOSTests */,
-				324B1C0E2771F2A3009C8A3E /* pracIOSUITests */,
+				324B1BEB2771F2A1009C8A3E /* base */,
+				324B1C042771F2A3009C8A3E /* baseTests */,
+				324B1C0E2771F2A3009C8A3E /* baseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		324B1C072771F2A3009C8A3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 324B1BEB2771F2A1009C8A3E /* pracIOS */;
+			target = 324B1BEB2771F2A1009C8A3E /* base */;
 			targetProxy = 324B1C062771F2A3009C8A3E /* PBXContainerItemProxy */;
 		};
 		324B1C112771F2A3009C8A3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 324B1BEB2771F2A1009C8A3E /* pracIOS */;
+			target = 324B1BEB2771F2A1009C8A3E /* base */;
 			targetProxy = 324B1C102771F2A3009C8A3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pracIOS.app/pracIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/base.app/base";
 			};
 			name = Debug;
 		};
@@ -524,7 +524,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pracIOS.app/pracIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/base.app/base";
 			};
 			name = Release;
 		};
@@ -565,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		324B1BE72771F2A1009C8A3E /* Build configuration list for PBXProject "pracIOS" */ = {
+		324B1BE72771F2A1009C8A3E /* Build configuration list for PBXProject "base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				324B1C172771F2A3009C8A3E /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		324B1C192771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOS" */ = {
+		324B1C192771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				324B1C1A2771F2A3009C8A3E /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		324B1C1C2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOSTests" */ = {
+		324B1C1C2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "baseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				324B1C1D2771F2A3009C8A3E /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		324B1C1F2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "pracIOSUITests" */ = {
+		324B1C1F2771F2A3009C8A3E /* Build configuration list for PBXNativeTarget "baseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				324B1C202771F2A3009C8A3E /* Debug */,
