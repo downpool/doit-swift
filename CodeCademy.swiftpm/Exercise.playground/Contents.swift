@@ -48,3 +48,6 @@ var mondayRegimen = Regimen(dayOfWeek: "Monday", exercises: [pushUp])
 
 mondayRegimen.printExercisePlan()
 
+/*
+ 2022/08/20 Sat.
+ */
