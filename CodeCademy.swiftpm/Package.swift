@@ -17,7 +17,6 @@ let package = Package(
             name: "CodeCademy",
             targets: ["AppModule"],
             bundleIdentifier: "CodeCademy.CodeCademy",
-            teamIdentifier: "",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .placeholder(icon: .rocket),
