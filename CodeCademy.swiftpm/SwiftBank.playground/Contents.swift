@@ -9,7 +9,7 @@ struct SwiftBank {
     static let depositBonusRate = 0.01
     
     //#3, #9
-    init(initialDeposit: Double,password: String) {
+    init(initialDeposit: Double, password: String) {
         self.password = password
         makeDeposit(ofAmount: initialDeposit)
     }
