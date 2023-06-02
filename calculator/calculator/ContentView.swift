@@ -82,6 +82,8 @@ enum ButtonType {
     }
 }
 
+
+
 struct ContentView: View {
     
     @State private var answer: Int = 0
@@ -132,7 +134,6 @@ struct ContentView: View {
                             }
                         }
                     }
-
                 }
             }
         }
